@@ -1,0 +1,9 @@
+#Oranges number
+echo "How many oranges are on the table"
+read num1
+echo "How many oranges are in the bucket"
+read num2
+echo 'The number oranges in the bucket are' $num2
+echo 'The number oranges on the table are;' $num1
+echo 'All the oranges are;'
+expr $num1 + $num2
